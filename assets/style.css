@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url("athena.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.main
+{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    background-image: url("athena.jpg") !important;
+    background-size:cover;
+}
+
+.sence:hover
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 1;
+    background-image: url("athena_next.jpg");
+    transition: visibility 0s linear 300ms, opacity 6000ms;
+    background-size:cover;
+} 
+
+
+.sence
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0;
+    background-image: url("athena_next.jpg");
+    background-size:cover;
+}
