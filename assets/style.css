@@ -43,7 +43,5 @@ body
     align-items: center;
     min-height: 100vh;
     background-image: url("athena_next.jpg");
-    /* opacity: 0; */
-    /* transition: visibility 0s linear 300ms, opacity 6000ms; */
     background-size: cover;
 }
